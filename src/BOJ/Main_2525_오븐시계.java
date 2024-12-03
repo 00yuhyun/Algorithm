@@ -14,18 +14,17 @@ public class Main_2525_오븐시계 {
         int duration = Integer.parseInt(br.readLine());
 
         int afterHour = hour;
-        int afterMin = min+duration;
-
-        if (afterMin>=60) {
-            int ansMin = afterMin%60;
-            int add = afterMin/60;
+        int afterMin = min + duration;
+        int ansMin = afterMin;
+        if (ansMin >= 60) {
+            ansMin = afterMin % 60;
+            int add = afterMin / 60;
             afterHour += add;
-            afterMin = ansMin;
-            if (afterHour>=24) {
-                afterHour = afterHour%24;
+            if (afterHour >= 24) {
+                afterHour = afterHour % 24;
             }
         }
-        System.out.println(afterHour+ " "+afterMin);
+        System.out.println(afterHour + " " + ansMin);
 
     }
 }
