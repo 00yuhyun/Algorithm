@@ -22,8 +22,8 @@ public class Main_10807_개수세기 {
         int v = Integer.parseInt(br.readLine());
         int cnt = 0;
         for (int num : intArray) {
-            if(num == v) {
-                cnt +=1;
+            if (num == v) {
+                cnt += 1;
             }
         }
         System.out.println(cnt);
