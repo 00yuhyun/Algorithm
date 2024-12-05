@@ -15,13 +15,12 @@ public class Main_10871_X보다작은수 {
         int n = Integer.parseInt(st1.nextToken());
         int x = Integer.parseInt(st1.nextToken());
 
-        StringTokenizer st2 = new StringTokenizer(br.readLine());
-
+        st1 = new StringTokenizer(br.readLine());
 
         int[] intArray = new int[n];
 
         for (int i = 0; i < n; i++) {
-            intArray[i] = Integer.parseInt(st2.nextToken());
+            intArray[i] = Integer.parseInt(st1.nextToken());
         }
 
         for (int num : intArray) {
