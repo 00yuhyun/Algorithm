@@ -12,11 +12,6 @@ public class Main_2563_색종이 {
 
         StringTokenizer st;
         int[][] background = new int[100][100];
-        for (int i = 0; i < 100; i++) {
-            for (int j = 0; j < 100; j++) {
-                background[i][j] = 0;
-            }
-        }
 
         for (int i = 0; i < t; i++) {
             st = new StringTokenizer(br.readLine());
